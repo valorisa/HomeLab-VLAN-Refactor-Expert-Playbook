@@ -32,6 +32,7 @@
 19. [Références](#-références)
 20. [Contribuer](#-contribuer)
 21. [Licence](#-licence)
+22. [Avertissement final](#-avertissment-final)
 
 ---
 
