@@ -1,0 +1,17 @@
+! Création du Port-channel
+interface range GigabitEthernet1/0/45-46
+ description LAG vers FortiGate
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+ switchport trunk native vlan 999
+ switchport trunk allowed vlan 10,20,30,50,100,200,300,999,1000
+ channel-group 1 mode active
+ spanning-tree portfast trunk
+
+interface Port-channel1
+ description LAG vers FortiGate
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+ switchport trunk native vlan 999
+ switchport trunk allowed vlan 10,20,30,50,100,200,300,999,1000
+ spanning-tree portfast trunk

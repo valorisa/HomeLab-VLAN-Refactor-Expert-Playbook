@@ -1,0 +1,5 @@
+spanning-tree mode rapid-pvst
+spanning-tree extend system-id
+spanning-tree vlan 10,20,30,50,100,200,300 priority 24576
+spanning-tree portfast default
+spanning-tree bpduguard enable

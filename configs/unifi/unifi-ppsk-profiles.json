@@ -1,0 +1,6 @@
+[
+  { "label": "AdminLaptop", "passphrase": "Home-Admin-01!", "vlan": 10 },
+  { "label": "Workstation", "passphrase": "Home-PC-01!", "vlan": 50 },
+  { "label": "HomeAssistant", "passphrase": "Home-IoT-01!", "vlan": 30 },
+  { "label": "CaméraSalon", "passphrase": "Home-Cam-01!", "vlan": 300 }
+]

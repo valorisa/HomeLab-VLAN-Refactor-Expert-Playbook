@@ -1,0 +1,24 @@
+{
+  "networks": [
+    { "name": "ADMIN", "vlan": 10, "subnet": "10.20.10.0/24", "gateway": "10.20.10.254" },
+    { "name": "PC", "vlan": 50, "subnet": "10.20.50.0/24", "gateway": "10.20.50.254" },
+    { "name": "IOT", "vlan": 30, "subnet": "10.20.30.0/24", "gateway": "10.20.30.254" },
+    { "name": "GUEST", "vlan": 100, "subnet": "10.20.100.0/24", "gateway": "10.20.100.254" },
+    { "name": "WIFI-MGMT", "vlan": 200, "subnet": "10.20.200.0/24", "gateway": "10.20.200.254" }
+  ],
+  "wlans": [
+    {
+      "name": "Home",
+      "security": "WPA3-Personal",
+      "ppsks": "unifi-ppsk-profiles.json",
+      "vlan": 50
+    },
+    {
+      "name": "Guests",
+      "security": "WPA2-Personal",
+      "passphrase": "ChangeMeGuests",
+      "vlan": 100,
+      "isolation": true
+    }
+  ]
+}

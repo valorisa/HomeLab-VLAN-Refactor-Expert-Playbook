@@ -1,0 +1,30 @@
+! Ports d'accès
+interface range GigabitEthernet1/0/1-8
+ description VLAN10 - Infrastructure
+ switchport mode access
+ switchport access vlan 10
+ spanning-tree portfast
+
+interface range GigabitEthernet1/0/9-16
+ description VLAN50 - Postes clients
+ switchport mode access
+ switchport access vlan 50
+ spanning-tree portfast
+
+interface range GigabitEthernet1/0/17-24
+ description VLAN30 - IoT
+ switchport mode access
+ switchport access vlan 30
+ spanning-tree portfast
+
+interface range GigabitEthernet1/0/25-32
+ description VLAN100 - Guests
+ switchport mode access
+ switchport access vlan 100
+ spanning-tree portfast
+
+interface range GigabitEthernet1/0/33-36
+ description VLAN200 - APs
+ switchport mode trunk
+ switchport trunk allowed vlan 200
+ power inline static max 20
