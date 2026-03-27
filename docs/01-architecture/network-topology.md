@@ -1,1 +1,15 @@
-
+graph TB
+    Internet[Internet/FAI] --> Livebox[Livebox / ONT]
+    Livebox --> FG[Fortinet 60F]
+    FG --> |LAG 2x1G<br/>Native VLAN 999| C2960[Cisco Catalyst 2960X]
+    C2960 --> |Trunk 10G| CRS[MikroTik CRS305]
+    CRS --> |SFP+| TrueNAS[TrueNAS SCALE]
+    CRS --> |SFP+| Proxmox[Proxmox VE]
+    CRS --> |SFP+| Workstation[PC Principal]
+    C2960 --> |PoE VLAN 200| AP1[UniFi U7 Lite #1]
+    C2960 --> |PoE VLAN 200| AP2[UniFi U7 Lite #2]
+    FG --> |VLAN 10| Admin[Services Admin]
+    FG --> |VLAN 50| Clients[PC / Laptops]
+    FG --> |VLAN 30| IoT[Capteurs / Domotique]
+    FG --> |VLAN 20| VoIP[Téléphones]
+    FG --> |VLAN 100| Guests[Invités]
