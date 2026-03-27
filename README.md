@@ -26,7 +26,7 @@
 13. [Comment lire et exécuter ce dépôt](#%EF%B8%8F-comment-lire-et-exécuter-ce-dépôt)
 14. [Structure détaillée du dépôt](#%EF%B8%8F-structure-détaillée-du-dépôt)
 15. [Philosophie “débat d’experts”](#-philosophie-débat-dexperts)
-16. [Gestion des risques et stratégie de rollback](#-gestion-des-risques-et-stratégie-de-rollback)
+16. [Gestion des risques et stratégie de rollback](#%EF%B8%8F-gestion-des-risques-et-stratégie-de-rollback)
 17. [Validation post-migration](#-validation-post-migration)
 18. [Roadmap et évolutions futures](#-roadmap-et-évolutions-futures)
 19. [Références](#-références)
