@@ -28,7 +28,7 @@
 15. [Philosophie “débat d’experts”](#-philosophie-débat-dexperts)
 16. [Gestion des risques et stratégie de rollback](#%EF%B8%8F-gestion-des-risques-et-stratégie-de-rollback)
 17. [Validation post-migration](#-validation-post-migration)
-18. [Roadmap et évolutions futures](#-roadmap-et-évolutions-futures)
+18. [Roadmap et évolutions futures](#%EF%B8%8F-roadmap-et-évolutions-futures)
 19. [Références](#-références)
 20. [Contribuer](#-contribuer)
 21. [Licence](#-licence)
